@@ -71,7 +71,7 @@ const app = Vue.createApp({
                 this.confirmSenha = '';
 
                 setTimeout(() => {
-                    window.location.href = '../html/index.html';
+                    window.location.href = '../html/signin.html';
                 }, 3000);
             } else {
                 this.msgError = '<strong>Preencha todos os campos corretamente antes de cadastrar</strong>';
